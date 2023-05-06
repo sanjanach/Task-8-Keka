@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page-container">
+        <div class="main-info">
+            <div class="page-header">
+                <header class="home-header">
+                    <p class="page-header-items">
+                        <a class="header-link" href="#">Request a Quote&nbsp;</a><a class="header-link" href="#">Client Login&nbsp;</a><a href="#">Vehicle Export Portal</a>
+                    </p>
+                </header>
+            </div>
+
+            <nav class="navbar">
+                <p class="nav-logo"><img class="logo-img" src="logo.png" alt="logo-img"></p>
+                <div class="border-nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a class="nav-link" href="home.html">Home</a></li><div class="nav-list-item-new"></div>
+                    <li class="nav-list-item"><a class="nav-link" href="#">About ftzws</a></li><li class="nav-list-item-new"></li>
+                    <li class="nav-list-item"><a class="nav-link" href="services.html">Our Services</a></li><li class="nav-list-item-new"></li>
+                    <li class="nav-list-item"><a class="nav-link" href="clients.html">Our Clients</a></li><li class="nav-list-item-new"></li>
+                    <li class="nav-list-item"><a href="#">Contact Us</a></li>
+                </ul>
+            </div>    
+        </nav>
+
+        <section class="client-section">
+            <div class="border-client">
+                <div class="search-bar">
+                    <input type="search" placeholder="search" name="search" id="SearchBar">
+                </div>
+                
+                <table id="ClientTable">
+                    <thead>
+                        <td><input type="checkbox" name="" id="CheckboxHeader" ></td>
+                        <td>Name</td>
+                        <td>Score</td>
+                        <td>Email</td>
+                        <td></td>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+
+                <div class="calculate">
+                    <input class="calculate-value" type="button" value="Calculate" name="" id="CalculateBtn">
+                    <span class="calculate-avg" >Average:</span><span id="avg-value"></span>
+                    <span class="calculate-max" >Max:</span><span id="max-value"></span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="home-footer">
+            <p class="footer-text">Copyright &#169; 2010 FT, World Services. &nbsp; All rights reserved. &nbsp; <a href="#">Contact Us</a> | <a href="#">Request a Quote</a></p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
